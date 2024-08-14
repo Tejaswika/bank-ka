@@ -20,12 +20,10 @@ const CustomFooter = () => {
                             Ut vehicula sed velit a faucibus.
                         </p>
                         <div className='button-container'>
-                            <Button type="primary" icon={<AppleOutlined />} size="large" className="credit-button">
-                                APP STORE
-                            </Button>
-                            <Button type="primary" icon={<AndroidOutlined />} size="large" className="credit-button">
-                                GOOGLE PLAY
-                            </Button>
+                        <span className='credit-button'><AppleOutlined /> APP STORE</span>
+                            
+                            <span className='credit-button'><AndroidOutlined /> GOOGLE PLAY</span>
+                           
                         </div>
 
                     </Col>

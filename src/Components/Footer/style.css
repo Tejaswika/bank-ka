@@ -49,9 +49,11 @@
   .copyright{
     background: linear-gradient(180deg, #333333 46.48%, #666666 87.23%);
     box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.5);
-    border-radius: 22%;
+    border-radius: 5%;
     padding: 10%;
     width: 120%;
+    color: #B8956D;
+
   }
 
   .button-container{
@@ -60,6 +62,10 @@
     margin: 10% 0;
     display: flex;
     gap: 5%;
+  }
+
+  .button-container .credit-button{
+    font-size: .8rem;
   }
   
   @media (max-width: 768px) {
