@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import LandingPage from './Components/LandingPage';
+import NavbarComponent from './Components/NavBar';
+import RewardsIcons from './Components/RewardsIcons';
+import CreditCards from './Components/CreditCards';
+import CompareCards from './Components/CompareCards';
+import LoungeFinder from './Components/LoungeFinder';
+import RatanTataPage from './Components/RatanTataPage';
+import CustomFooter from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarComponent />
+      <LandingPage/>
+      <RewardsIcons />
+      <CreditCards />
+      <CompareCards />
+      <LoungeFinder />
+      <RatanTataPage />
+      <CustomFooter />
     </div>
   );
 }

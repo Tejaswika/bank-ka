@@ -1,0 +1,84 @@
+.ratan-tata-page{
+    background: rgba(240, 240, 240, 1);
+    position: relative;
+    top: 80vh;
+    padding: 2% 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    z-index: 1;
+}
+
+.ratan-tata-background-video{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.descriptions{
+    font-family: 'PP Cirka';
+font-size: 1.2rem;
+font-weight: 200;
+line-height: 31.3px;
+letter-spacing: 0.04em;
+text-align: left;
+}
+
+.ratan-tata-headings{
+    font-family: 'PP Cirka';
+font-size: 4.5rem;
+font-weight: 500;
+line-height: 115.9px;
+letter-spacing: -0.04em;
+text-align: left;
+
+}
+.impact{
+    color:#B8956D;
+}
+.ratan-tata-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 23%;
+    padding-top: 5%;
+}
+.right-text{
+    width: 30%;
+}
+.left-text{
+    width: 30%;
+}
+.left-header{
+    font-family: 'PP Cirka';
+font-size: 3rem;
+font-weight: 600;
+/* line-height: 100.47px; */
+letter-spacing: -0.04em;
+text-align: center;
+
+}
+
+.left-sub-header{
+    font-family: 'PP Cirka';
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 43.76px;
+text-align: center;
+color: rgba(121, 87, 44, 1);
+}
+
+.right-text{
+    font-family: 'Poppins';
+font-size: 1rem;
+font-weight: 500;
+/* line-height: 40.8px; */
+text-align: center;
+
+}

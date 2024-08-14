@@ -1,0 +1,55 @@
+.reward-section{
+    position: relative;
+    top: -175px;
+    padding: 1% 5%;
+    width: 100%;
+    height: 100%;
+}
+.rewards-bg{
+    background: linear-gradient(to bottom, rgba(255, 211, 156, 1) 5%, rgb(0, 0, 0) 50%);
+    position: absolute;
+    width: 105%;
+    height: 155%;
+    z-index: -2;
+    left: -5%;
+    top: -55%;
+}
+.icons-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.icons-container img{
+    width: 40%;
+}
+.icons-container .heading{
+font-family: 'PP Cirka';
+font-weight: 700;
+font-size: 1.5rem;
+text-align: center;
+color: white;
+}
+
+.icons-container .sub-headings{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    }
+
+.icon-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+.tools img{
+    width: 20%;
+}

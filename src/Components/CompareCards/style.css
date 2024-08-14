@@ -1,0 +1,66 @@
+.compare-cards-section{
+    background: black;
+    position: relative;
+    top: -175px;
+    z-index: 2;
+}
+.compare-background-video {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+}
+.main-header{
+    font-family: 'PP Cirka', sans-serif;
+    font-size: 8rem;
+    font-weight: 700;
+    line-height: 273.51px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: -180px;
+    background: linear-gradient(180deg, #000000 30.48%, #D1AD83 87.23%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: linear-gradient(180deg, #000000 46.48%, #D1AD83 87.23%);
+    -webkit-text-stroke: 1px white;
+}
+/* .compare-white-building img{
+    position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+} */
+.compare-white-building{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: absolute;
+    top: 250%;
+    width: 100%;
+    height: 100%;
+}
+
+.compare-white-building img {
+    width: 50%;
+}
+
+.compare-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    gap: 5%;
+    height: 100vh;
+    top: 250%;
+}
+
+/* .compare-card-container img{
+    width: 20px;
+} */
